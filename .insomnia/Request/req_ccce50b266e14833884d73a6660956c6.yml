@@ -1,0 +1,32 @@
+_id: req_ccce50b266e14833884d73a6660956c6
+type: Request
+parentId: fld_772f55f82fe24ca885f4c22c2c3f6511
+modified: 1690979407388
+created: 1690855391362
+url: "{{ _.url }}/org"
+name: org
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "test123"
+    }
+parameters: []
+headers:
+  - id: pair_af972be6b4184ac89e1622eda0a996f3
+    name: x-api-key
+    value: ODFkODViZGUtODE0My00N2MxLWFhMTUtOTVmN2U1NTFlNGE1
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1680006942187.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_74cd6b0ad3e042c28bd5000a84e34e1a
+type: Request
+parentId: fld_772f55f82fe24ca885f4c22c2c3f6511
+modified: 1690979341874
+created: 1690855357762
+url: "{{ _.url }}/org/{% response 'body',
+  'req_ccce50b266e14833884d73a6660956c6', 'b64::JC5pZA==::46b', 'never', 60 %}"
+name: org/:orgId
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: "{}"
+parameters: []
+headers:
+  - id: pair_af972be6b4184ac89e1622eda0a996f3
+    name: x-org-id
+    value: c72316de-7213-4e32-914d-363067052487
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_2aa830d361d14141b2465e1af31b3fa1
+authentication: {}
+metaSortKey: -1680006942087.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_0086b14f61d441a7ba7f07f9a476f7db
+type: Request
+parentId: fld_b56b724bc0b04832b8d891285c20bff2
+modified: 1690974329607
+created: 1690942172750
+url: "{{ _.url }}/key"
+name: key
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "admin",
+    	"password": "123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1690939349467.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

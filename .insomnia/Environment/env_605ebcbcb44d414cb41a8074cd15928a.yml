@@ -1,0 +1,18 @@
+_id: env_605ebcbcb44d414cb41a8074cd15928a
+type: Environment
+parentId: env_22793769d5d734e8dc5520d75f4051f44b37ec51
+modified: 1690974430963
+created: 1690973972129
+name: Development
+data:
+  protocol: http
+  domain: localhost
+  port: 3000
+dataPropertyOrder:
+  "&":
+    - protocol
+    - domain
+    - port
+color: "#03fcf8"
+isPrivate: false
+metaSortKey: 1690973972129

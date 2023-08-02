@@ -1,0 +1,42 @@
+_id: req_79ee4f06b07c4ee9aaf026332ebb7d1e
+type: Request
+parentId: fld_8d2b831b935149d5ae8b7c2faaafb0df
+modified: 1690980858162
+created: 1690972037499
+url: "{{ _.url }}/org/{% response 'body',
+  'req_ccce50b266e14833884d73a6660956c6', 'b64::JC5pZA==::46b', 'never', 60
+  %}/project/{% response 'body', 'req_aaa02e8c844f4a16bc688c5d42246a76',
+  'b64::JC5pZA==::46b', 'never', 60 %}/service"
+name: service
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"image": "strm/helloworld-http"
+    }
+parameters: []
+headers:
+  - id: pair_af972be6b4184ac89e1622eda0a996f3
+    name: x-api-key
+    value: ODFkODViZGUtODE0My00N2MxLWFhMTUtOTVmN2U1NTFlNGE1
+    description: ""
+    disabled: false
+  - id: pair_6794d1734e1c48c5bae23cdb53bb669e
+    name: x-org-id
+    value: a2492863-abd4-4d8e-b5a7-f930c0f59d51
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_f972cfd616ff49fd95561d9debf31e2f
+authentication: {}
+metaSortKey: -1690972081493
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

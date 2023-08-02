@@ -1,0 +1,33 @@
+_id: req_9b52282e7cf3445888c044ddd1deb026
+type: Request
+parentId: fld_cc4b2c02e9d546a6aadcb08f6e151c80
+modified: 1690980040547
+created: 1690946920546
+url: "{{ _.url }}/org/{% response 'body',
+  'req_ccce50b266e14833884d73a6660956c6', 'b64::JC5pZA==::46b', 'never', 60
+  %}/project"
+name: project/:projectId
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_af972be6b4184ac89e1622eda0a996f3
+    name: x-api-key
+    value: ODFkODViZGUtODE0My00N2MxLWFhMTUtOTVmN2U1NTFlNGE1
+    description: ""
+    disabled: false
+  - id: pair_6794d1734e1c48c5bae23cdb53bb669e
+    name: x-org-id
+    value: a2492863-abd4-4d8e-b5a7-f930c0f59d51
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1671870630456.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

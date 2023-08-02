@@ -1,0 +1,22 @@
+_id: env_22793769d5d734e8dc5520d75f4051f44b37ec51
+type: Environment
+parentId: wrk_6dbc89831f7e4df390c4c995b5cdcda4
+modified: 1690979263451
+created: 1690855295187
+name: Base Environment
+data:
+  protocol: https
+  domain: example.com
+  port: 80
+  url: "{{ _.protocol }}://{{ _.domain }}:{{ _.port }}"
+  orgs: []
+dataPropertyOrder:
+  "&":
+    - protocol
+    - domain
+    - port
+    - url
+    - orgs
+color: null
+isPrivate: false
+metaSortKey: 1690855295187
